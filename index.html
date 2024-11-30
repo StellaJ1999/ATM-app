@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>BankomatApp</title>
+</head>
+<body>
+  <div id="app-container">
+    <div id="header">BankomatApp</div>
+    <div id="login-page" class="page">
+      <label for="username">Användarnamn</label>
+      <input type="text" id="username" placeholder="Användarnamn">
+      <label for="password">Lösenord</label>
+      <input type="password" id="password" placeholder="Lösenord">
+      <button id="login-btn">Logga in</button>
+      <button id="cancel-btn">Avbryt</button>
+    </div>
+    <div id="dashboard" class="page">
+      <div id="user-info"></div>
+      <div id="balance-display">Saldo: 1000 kr</div>
+      <div id="button-display"></div>
+      <div id="keypad">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>0</button>
+      </div>
+      <button id="show-balance-btn">Visa Saldo</button>
+      <button id="deposit-btn">Insättning</button>
+      <button id="withdraw-btn">Uttag</button>
+      <!-- Add "Rensa" button -->
+      <button id="clear-btn">Rensa</button>
+      <button id="logout-btn">Logga ut</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
